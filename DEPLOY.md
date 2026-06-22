@@ -1,11 +1,21 @@
-# Triển khai lên Streamlit Community Cloud
+# File → Markdown App v1.1
 
-Tải toàn bộ nội dung thư mục này lên một GitHub repository.
+Bản v1.1 bổ sung:
 
-Thiết lập khi triển khai:
+- Upload nhiều file cùng lúc.
+- Dán text để xuất `.md`.
+- Dán ảnh/screenshot từ clipboard để OCR sang `.md`.
+- Upload ảnh thay thế nếu trình duyệt không cho dán clipboard.
 
+Triển khai Streamlit Cloud:
+
+- Repository: `invlegalbot/file-to-markdown-app`
 - Branch: `main`
 - Main file path: `app.py`
-- Python version đề xuất: `3.12`
 
-`packages.txt` cài Tesseract OCR và dữ liệu ngôn ngữ Việt/Anh trên máy chủ Linux.
+Các file cần có:
+
+- `app.py`
+- `requirements.txt`
+- `packages.txt`
+- `.streamlit/config.toml`
